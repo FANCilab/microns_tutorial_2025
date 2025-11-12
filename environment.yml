@@ -1,8 +1,7 @@
-name: micronsbinder_02
+name: microns_tutorial_2025
 channels:
+  - conda-forge
   - defaults
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
@@ -331,4 +330,3 @@ dependencies:
       - zope-event==5.0
       - zope-interface==7.2
       - zstandard==0.23.0
-prefix: /home/ckang/anaconda3/envs/micronsbinder_02
